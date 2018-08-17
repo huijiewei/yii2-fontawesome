@@ -1,0 +1,36 @@
+{
+  "name": "huijiewei/yii2-fontawesome",
+  "description": "Get the Font Awesome unicode character by the icon name.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-fontawesome.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "FontAwesome",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "yiisoft/yii2": "^2.0",
+    "npm-asset/font-awesome": "^4.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\fontawesome\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
