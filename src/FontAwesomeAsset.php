@@ -1,24 +1,18 @@
 <?php
 
-/**
- * User: Huijiewei
- * Date: 2015-03-31
- * Time: 15:29.
- */
-
 namespace huijiewei\fontawesome;
 
 use yii\web\AssetBundle;
 
 class FontAwesomeAsset extends AssetBundle
 {
-    public $sourcePath = '@npm/font-awesome';
+    public string $sourcePath = '@npm/font-awesome';
 
-    public $css = [
+    public array $css = [
         'css/font-awesome.min.css',
     ];
 
-    public $publishOptions = [
+    public array $publishOptions = [
         'only' => [
             'fonts/*',
             'css/*',
